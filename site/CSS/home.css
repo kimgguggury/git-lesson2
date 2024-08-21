@@ -154,6 +154,15 @@ button:focus {
   color: #aaa;
   border: 1px solid transparent;
 }
+#tabMenu label:hover {
+  color: #222;
+  cursor: pointer;
+}
+#tabMenu input:checked + label {
+  color: #b00;
+  border: 1px solid #ddd;
+  background-color: #eee;
+}
 #quikLink{
   width: 800px;
   height: 300px;
